@@ -1,5 +1,6 @@
 from telethon.sync import TelegramClient
-from telethon.tl import functions, types, channels
+from telethon.tl import functions, types
+from telethon.tl.functions import channels
 import time, random, asyncio, os
 
 
